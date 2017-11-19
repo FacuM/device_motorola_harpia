@@ -26,6 +26,10 @@ TARGET_OTA_ASSERT_DEVICE := harpia,harpia_retail
 TARGET_INIT_VENDOR_LIB := libinit_harpia
 TARGET_RECOVERY_DEVICE_MODULES := libinit_harpia
 
+# Kernel Toolchain
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-6.0/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+
 # Kernel
 TARGET_KERNEL_CONFIG := harpia_defconfig
 
