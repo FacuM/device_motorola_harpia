@@ -1,3 +1,3 @@
-add_lunch_combo aquarios_harpia-userdebug
-add_lunch_combo aquarios_harpia-user
+add_lunch_combo harpia-userdebug
+add_lunch_combo harpia-user
 
