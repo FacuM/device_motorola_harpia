@@ -16,6 +16,9 @@
 
 # Inherit from msm8916-common
 $(call inherit-product, device/motorola/msm8916-common/msm8916.mk)
+$(call inherit-product, vendor/aquarios/config/phone-xxhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, vendor/aquarios/config/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, vendor/aquarios/config/utils.mk)
 
 # Screen density
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
