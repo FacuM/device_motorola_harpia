@@ -1,1 +1,1 @@
-add_lunch_combo gzosp_harpia-userdebug
+add_lunch_combo nitrogen_harpia-userdebug

@@ -1,5 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
-#               2017 The GZOSP Project
+#               2017 The Nitrogen Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,12 +19,12 @@ $(call inherit-product, device/motorola/harpia/full_harpia.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Inherit some common aosp stuff.
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := harpia
 PRODUCT_MODEL := Moto G Play
-PRODUCT_NAME := gzosp_harpia
+PRODUCT_NAME := nitrogen_harpia
 PRODUCT_BRAND := Motorola
 PRODUCT_MANUFACTURER := Motorola
 PRODUCT_RELEASE_NAME := harpia
